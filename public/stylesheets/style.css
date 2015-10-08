@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.equalsBar {
+  width:20%;
+  float:left;
+}
+
+.equals {
+  float:left;
+}
+
+.selected {
+  background-color:lightblue;
+  border-radius:5px;
+  outline:0px;
+}
