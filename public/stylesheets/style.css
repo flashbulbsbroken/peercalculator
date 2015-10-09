@@ -3,21 +3,53 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+/*.mainContent {*/
+  /*width: 300px;*/
+  /*margin: 0 auto;*/
+  /*display: block;*/
+/*}*/
+
 a {
   color: #00B7FF;
+}
+
+.mainHeader {
+  font-family: 'Coming Soon', cursive;
+}
+
+input[type=number] {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.operation {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .equalsBar {
   width:20%;
   float:left;
+  color: black;
 }
 
-.equals {
-  float:left;
+.buttons {
+  margin-top: 20px;
 }
 
-.selected {
-  background-color:lightblue;
-  border-radius:5px;
-  outline:0px;
+.col-md-2 {
+  margin-top: 10px;
+}
+
+.col-xs-1 {
+  padding: 0;
+}
+
+.operatorBtns {
+  width:20%;
+  display:flex;
+  justify-content:space-around;
+  margin-top: 15px;
 }
